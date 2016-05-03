@@ -1,13 +1,35 @@
-.button-div {
+/*.button-div {
   position: relative;
-  margin-top: 10%;
+  left: 0;
+  right: 0;
+  margin-top: 5%;
+}*/
+
+#background-image {
+  background-image: url("images/image1.jpg");
+  background-color: rgba(100, 100, 100, 0.9);
+  height: 100%;
+  background-size: cover;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #quote-div {
-  margin-top: 15%;
+  color: white;
+  position: relative;
+  margin-top: 25%;
+  margin-bottom: 20%;
 }
 
-#quote-paragraph {
-  font-size: 2vw;
+#quote-title {
+  font-weight: bold;
+  font-size: 3vw;
+  text-align: right;
+}
+
+#quote-content {
+  font-size: 3.25vw;
   font-style: italic;
 }
