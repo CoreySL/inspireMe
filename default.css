@@ -1,0 +1,13 @@
+.button-div {
+  position: relative;
+  margin-top: 10%;
+}
+
+#quote-div {
+  margin-top: 15%;
+}
+
+#quote-paragraph {
+  font-size: 2vw;
+  font-style: italic;
+}
