@@ -1,26 +1,95 @@
-/*.button-div {
-  position: relative;
+#space-row {
+  position: fixed;
   left: 0;
   right: 0;
-  margin-top: 5%;
-}*/
+  bottom: 50px;
+}
+
+#space-div {
+  color: #eee;
+  opacity: 0.5;
+  z-index: 1000;
+  font-size: 20px;
+}
+
+#space-div:hover {
+  cursor: hand;
+}
+
+#space-border {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+.image1 {
+  background-image: url("images/image1.jpg");
+  opacity: 0.9;
+}
+.image2 {
+  background-image: url("images/image2.jpg");
+  opacity: 0.9;
+}
+.image3 {
+  background-image: url("images/image3.jpg");
+  opacity: 0.9;
+}
+.image4 {
+  background-image: url("images/image4.jpg");
+  opacity: 0.9;
+}
+.image5 {
+  background-image: url("images/image5.jpg");
+  opacity: 0.9;
+}
+.image6 {
+  background-image: url("images/image6.jpg");
+  opacity: 0.9;
+}
+.image7 {
+  background-image: url("images/image7.jpg");
+  opacity: 0.9;
+}
+.image8 {
+  background-image: url("images/image8.jpg");
+  opacity: 0.9;
+}
+.image9 {
+  background-image: url("images/image9.jpg");
+  opacity: 0.9;
+}
+.image10 {
+  background-image: url("images/image10.jpg");
+  opacity: 0.9;
+}
+.image11 {
+  background-image: url("images/image11.jpg");
+  opacity: 0.9;
+}
+.image12 {
+  background-image: url("images/image12.jpg");
+  opacity: 0.9;
+}
 
 #background-image {
-  background-image: url("images/image1.jpg");
-  background-color: rgba(100, 100, 100, 0.9);
+  /*background-color: rgba(100, 100, 100, 0.1);*/
   height: 100%;
   background-size: cover;
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 1;
 }
 
 #quote-div {
-  color: white;
+  color: #f2f2f2;
   position: relative;
-  margin-top: 25%;
+  margin-top: 10%;
   margin-bottom: 20%;
+  z-index: 10;
 }
 
 #quote-title {

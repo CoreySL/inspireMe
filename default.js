@@ -55,7 +55,7 @@ var getQuote = function() {
     dataType: 'jsonp',
     success: function(data) {
       var post = data.shift();
-      if (post.content.length > 300) {
+      if (post.content.length > 200) {
         getQuote();
       }
       else {
@@ -79,11 +79,15 @@ var getQuote = function() {
 
 $(document).ready(function() {
   $(document).keydown(function(e) {
-    // e.preventDefault();
     if(e.keyCode == 32){
        // user has pressed space
        getQuote();
        changeBackground();
     }
+  });
+  $('#space-div').click(function(e) {
+    e.preventDefault();
+    getQuote();
+    changeBackground();
   });
 });
