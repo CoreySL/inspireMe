@@ -1,5 +1,5 @@
 {
-  "name": "random-quotes",
+  "name": "inspireMe",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,14 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoreySL/quote-generator.git"
+    "url": "git+https://github.com/CoreySL/inspireMe.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CoreySL/quote-generator/issues"
+    "url": "https://github.com/CoreySL/inspireMe/issues"
   },
-  "homepage": "https://github.com/CoreySL/quote-generator#readme",
+  "engines": {
+    "node": "4.3.1"
+  },
+  "homepage": "https://github.com/CoreySL/inspireMe#readme",
   "dependencies": {
     "express": "^4.14.0"
   }
