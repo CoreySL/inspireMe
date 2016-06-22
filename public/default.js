@@ -4,7 +4,7 @@ function changeBackground() {
   }
   var randomNumber = randomNumber(1,12);
   var backgroundImage = document.getElementById('background-image');
-  $('#background-image').fadeOut('100', function() {
+  $('#background-image').fadeOut('200', function() {
     backgroundImage.className = '';
       if (randomNumber == 1) {
         $('#background-image').addClass('image1').fadeIn('fast');
@@ -86,6 +86,11 @@ $(document).ready(function() {
     }
   });
   $('#space-div').click(function(e) {
+    e.preventDefault();
+    getQuote();
+    changeBackground();
+  });
+  $(document).click(function(e) {
     e.preventDefault();
     getQuote();
     changeBackground();

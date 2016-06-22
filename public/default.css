@@ -85,7 +85,7 @@
 }
 
 #quote-div {
-  color: #f2f2f2;
+  color: #eee;
   position: relative;
   margin-top: 10%;
   margin-bottom: 20%;
@@ -99,6 +99,6 @@
 }
 
 #quote-content {
-  font-size: 3.25vw;
+  font-size: 3.5vw;
   font-style: italic;
 }
