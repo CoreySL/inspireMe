@@ -51,7 +51,7 @@ window.setInterval(function() {
 
 var getQuote = function() {
   $.ajax( {
-    url: 'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=?',
+    url: 'https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=?',
     dataType: 'jsonp',
     success: function(data) {
       var post = data.shift();
